@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522727222975.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1985475610",
+    "id" : "C0C090E7",
+    "lastKnownWriteTime" : 1522740854,
+    "last_content_update" : 1522740854127,
+    "path" : "C:/rProject/day07/Exercise.R",
+    "project_path" : "Exercise.R",
+    "properties" : {
+        "cursorPosition" : "4,46",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

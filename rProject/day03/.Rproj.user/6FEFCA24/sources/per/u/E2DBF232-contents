@@ -1,0 +1,24 @@
+#class 별 cty의 평균 높게 정렬
+ex1 <- mpg
+
+#page150 #1
+ex1 %>%
+  group_by(class) %>%
+  summarise(mean_cty=mean(cty)) %>%
+  arrange(desc(mean_cty)) #2
+
+
+#3
+ex1 %>%
+  group_by(manufacturer) %>%
+  summarise(mean_mftr=mean(hwy))%>%
+  arrange(desc(mean_mftr))%>%
+  head(3)
+
+#4
+ex1 %>%
+  group_by(manufacturer, class) %>%
+  summarise(cnt=n()) %>%
+  filter(class=='compact') %>%
+  arrange(desc(cnt))
+  

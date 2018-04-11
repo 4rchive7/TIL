@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522715450192.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3766887300",
+    "id" : "3C8E7BF7",
+    "lastKnownWriteTime" : 1522717724,
+    "last_content_update" : 1522717724184,
+    "path" : "C:/rProject/day06/r10.R",
+    "project_path" : "r10.R",
+    "properties" : {
+        "cursorPosition" : "3,18",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

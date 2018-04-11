@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522890489447.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1707069427",
+    "id" : "F8CFA085",
+    "lastKnownWriteTime" : 1522903279,
+    "last_content_update" : 1522904465066,
+    "path" : "C:/rProject/day08/ozo.R",
+    "project_path" : "ozo.R",
+    "properties" : {
+        "cursorPosition" : "83,45",
+        "scrollLine" : "9",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

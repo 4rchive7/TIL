@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522890493618.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4103812060",
+    "id" : "703A1CF5",
+    "lastKnownWriteTime" : 1522891618,
+    "last_content_update" : 1522891618751,
+    "path" : "C:/rProject/day08/workshop.R",
+    "project_path" : "workshop.R",
+    "properties" : {
+        "cursorPosition" : "55,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
