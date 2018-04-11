@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Main3Activity">
+
+    <Button
+        android:id="@+id/act3_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="act3_backClicked"
+        android:text="BACK" />
+</android.support.constraint.ConstraintLayout>
