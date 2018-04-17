@@ -21,10 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         myHandler = new MyHandler();
         text = findViewById(R.id.textView);
-        Toast.makeText(MainActivity.this, R.id.textView+"", Toast.LENGTH_SHORT).show();
-        Toast.makeText(MainActivity.this, text+"", Toast.LENGTH_SHORT).show();
+
         text = findViewById(R.id.textView);
-        Toast.makeText(MainActivity.this, R.id.text+"", Toast.LENGTH_SHORT).show();
     }
 
     public void clickBt(View v){
@@ -55,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             Bundle bundle = msg.getData();
-            //Toast.makeText(MainActivity.this, bundle.getInt("data")+"", Toast.LENGTH_SHORT).show();
-            //Toast.makeText(MainActivity.this, text+"", Toast.LENGTH_SHORT).show();
             if(bundle.getInt("data") == 11){
                 text.setText("ended");
             }else {
