@@ -125,7 +125,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         textView.setText(location.getLatitude() + " " + location.getLongitude());
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
             return;
-       //mMap.setMyLocationEnabled(true);
+        mMap.setMyLocationEnabled(true);
         LatLng myloc = new LatLng(37.500518, 127.0343218);
         mMap.addMarker(new MarkerOptions().position(myloc).title("MyLoc1"));
         LatLng myloc2 = new LatLng(37.502558, 127.0343258);

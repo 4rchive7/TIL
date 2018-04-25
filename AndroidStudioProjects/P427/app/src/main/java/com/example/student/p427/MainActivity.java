@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickBt(View v){
-        wv.loadUrl("http://70.12.114.149/AD/sample.html");
+        wv.loadUrl("http://70.12.114.144/ad/sample.html");
     }
 
     public void clickBt2(View v){
@@ -47,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
         JS(){}
         //자바스크립트에서 안드로이드로 호출할 수 있는 어노테이션
         @android.webkit.JavascriptInterface
-        public void clickJS(int i){
+        public void clickJS(String i){
 
-            textView.setText(String.valueOf(i));
-            Log.d("[ JS ]" , "Event process ........."+i);
-            Toast.makeText(MainActivity.this, "test : "+i , Toast.LENGTH_SHORT).show();
+            //Log.d("[ JS ]" , "Event process ........."+i);
+            textView.setText(i);
+            //Toast.makeText(MainActivity.this, "test : "+i , Toast.LENGTH_SHORT).show();
         }
     }
 
